@@ -17,6 +17,12 @@ const Switch = ({ currentPage, handlePageChange }) => {
           </a>
           <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
         </div>
+        <div className='group mr-32'>
+          <a href='#About' onClick={() => handlePageChange('About')}>
+            About
+          </a>
+          <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
+        </div>
         <div className='group mr-16'>
           <a href='#CV' onClick={() => handlePageChange('CV')}>
             CV

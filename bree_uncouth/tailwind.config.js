@@ -13,6 +13,15 @@ module.exports = {
         kyiv_buildings:
           "url('/Users/davidhardin/sandbox/bree_uncouth/bree_uncouth_milosz/bree_uncouth/src/assets/images/kyiv_buildings.png')",
       },
+      // animation: {
+      //   'infinite-scroll': 'infinite-scroll 0s linear infinite',
+      // },
+      // keyframes: {
+      //   'infinite-scroll': {
+      //     from: { transform: 'translateX(0)' },
+      //     to: { transform: 'translateX(-100%)' },
+      //   },
+      // },
     },
   },
   plugins: [],
