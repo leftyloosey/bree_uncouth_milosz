@@ -11,7 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         kyiv_buildings:
-          "url('/Users/davidhardin/sandbox/bree_uncouth/bree_uncouth_milosz/bree_uncouth/src/assets/kyiv_buildings.png')",
+          "url('/Users/davidhardin/sandbox/bree_uncouth/bree_uncouth_milosz/bree_uncouth/src/assets/images/kyiv_buildings.png')",
       },
     },
   },
