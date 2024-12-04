@@ -3,14 +3,23 @@ import React from 'react'
 const Project_Tile = ({ project }) => {
   const { link, img } = project
   return (
-    <div className='w-3/4 h-auto'>
-      <a href={link}>
-        <img
-          className='object-cover'
-          src={img}
-          alt=''
-          //   className='shadow-md mx-auto duration-200 w-60 hover:scale-105'
-        />
+    <div className='group'>
+      <div className='absolute pt-8 pl-2 transition-all opacity-0 transform translate-y-16 group-hover:-translate-y-0 group-hover:opacity-100'>
+        <p className='max-w-60 font-medium'>
+          text text text text text text text text text text text text text text
+          text text text text text text text text text text text text text text
+          text text
+        </p>
+      </div>
+      <a className='' href={link}>
+        <div className='group'>
+          <img
+            className='w-64 h-64 group-hover:opacity-10'
+            src={img}
+            alt=''
+            // className='w-96 h-96 shadow-md mx-auto duration-200 hover:scale-105'
+          />
+        </div>
       </a>
     </div>
   )

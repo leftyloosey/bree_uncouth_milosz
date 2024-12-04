@@ -4,11 +4,7 @@ import Switch from './Switch'
 
 const Nav = ({ currentPage, handlePageChange }) => {
   return (
-    <Switch
-      //   className='fixed top-0'
-      currentPage={currentPage}
-      handlePageChange={handlePageChange}
-    />
+    <Switch currentPage={currentPage} handlePageChange={handlePageChange} />
   )
 }
 

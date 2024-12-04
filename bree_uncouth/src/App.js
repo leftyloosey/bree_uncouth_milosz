@@ -6,9 +6,6 @@ import Research from './components/Research'
 import Teaching from './components/Teaching'
 import Home from './components/Home'
 import CV from './components/CV'
-import About from './components/About'
-
-// import './App.css'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -19,9 +16,6 @@ function App() {
     }
     if (currentPage === 'Teaching') {
       return <Teaching />
-    }
-    if (currentPage === 'About') {
-      return <About />
     }
     if (currentPage === 'CV') {
       return <CV />

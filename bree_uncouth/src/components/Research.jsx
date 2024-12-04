@@ -2,14 +2,18 @@ import React from 'react'
 
 import ProjectTile from './ProjectTile'
 
-import soviet_union_apart from '../assets/images/soviet_union_apart.jpg'
+import soviet_union_apart from '../assets/images/soviet_apart.jpg'
 import jsah from '../assets/images/jsah.png'
-import mass_housing from '../assets/images/mass_housing_ukraine.webp'
+import mass_housing from '../assets/images/mass_housing.png'
 import grand_old from '../assets/images/grand_old.jpg'
 import new_books from '../assets/images/new_books.jpg'
-import exhibit_poster from '../assets/images/exhibit_poster.jpg'
+import exhibit_poster from '../assets/images/insecurity_exhibit.jpg'
 import back_porch from '../assets/images/back_porch.jpg'
-import cover_issue from '../assets/images/cover_issue_13.jpg'
+import cover_issue from '../assets/images/green_cover.jpg'
+import aerial_map from '../assets/images/aerial_map.jpg'
+import arcc from '../assets/images/arcc.png'
+import bnw_crane from '../assets/images/bnw_crane.jpg'
+import yk_fence from '../assets/images/yk_fence.jpg'
 
 const Research = () => {
   const soviet_union_apart_tile = {
@@ -44,50 +48,38 @@ const Research = () => {
     link: 'https://ewjus.com/index.php/ewjus/article/view/374',
     img: cover_issue,
   }
+  const aerial_map_tile = {
+    link: '',
+    img: aerial_map,
+  }
+  const arcc_tile = {
+    link: '',
+    img: arcc,
+  }
+  const bnw_crane_tile = {
+    link: '',
+    img: bnw_crane,
+  }
+  const yk_fence_tile = {
+    link: '',
+    img: yk_fence,
+  }
 
   return (
-    <div className=''>
-      <div className='flex justify-around flex-col align-center gap-4 mt-4 ml-2 mr-2 md:flex-row'>
-        <ProjectTile project={soviet_union_apart_tile} />
-        <ProjectTile project={jsah_tile} />
-        <ProjectTile project={grand_old_tile} />
-        <ProjectTile project={mass_housing_tile} />
-      </div>
-      <div className='flex justify-around flex-col gap-4 mt-4 ml-2 mr-2 md:flex-row'>
-        <ProjectTile project={new_books_tile} />
-        <ProjectTile project={exhibit_poster_tile} />
-        <ProjectTile project={back_porch_tile} />
-        <ProjectTile project={cover_issue_tile} />
-      </div>
+    <div className='flex flex-wrap gap-4 mt-4 ml-4 '>
+      <ProjectTile project={soviet_union_apart_tile} />
+      <ProjectTile project={jsah_tile} />
+      <ProjectTile project={mass_housing_tile} />
+      <ProjectTile project={bnw_crane_tile} />
+      <ProjectTile project={cover_issue_tile} />
+      <ProjectTile project={yk_fence_tile} />
+      <ProjectTile project={exhibit_poster_tile} />
+      <ProjectTile project={aerial_map_tile} />
+      <ProjectTile project={arcc_tile} />
+      <ProjectTile project={new_books_tile} />
+      <ProjectTile project={back_porch_tile} />
+      <ProjectTile project={grand_old_tile} />
     </div>
-    // <div class='flex flex-col'>
-    //   <ul class=''>
-    //     <li>
-    //       <ProjectTile project={soviet_union_apart_tile} />
-    //     </li>
-    //     <li>
-    //       <ProjectTile project={back_porch_tile} />
-    //     </li>
-    //     <li>
-    //       <ProjectTile project={jsah_tile} />
-    //     </li>
-    //     <li>
-    //       <ProjectTile project={mass_housing_tile} />
-    //     </li>
-    //     <li>
-    //       <ProjectTile project={exhibit_poster_tile} />
-    //     </li>
-    //     <li>
-    //       <ProjectTile project={new_books_tile} />
-    //     </li>
-    //     <li>
-    //       <ProjectTile project={cover_issue_tile} />
-    //     </li>
-    //     <li>
-    //       <ProjectTile project={grand_old_tile} />
-    //     </li>
-    //   </ul>
-    // </div>
   )
 }
 
