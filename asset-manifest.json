@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/leftyloosey/bree_uncouth_milosz/static/css/main.533b0817.css",
-    "main.js": "/leftyloosey/bree_uncouth_milosz/static/js/main.3010d4fa.js",
-    "static/media/kyiv_buildings.png": "/leftyloosey/bree_uncouth_milosz/static/media/kyiv_buildings.7f45d10aa275525bd199.png",
-    "static/media/insecurity_exhibit.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/insecurity_exhibit.b9d91541a8f8b30423a2.jpg",
-    "static/media/mass_housing.png": "/leftyloosey/bree_uncouth_milosz/static/media/mass_housing.8ca7c8e14a753d454c50.png",
-    "static/media/kyiv_kate_bnw.png": "/leftyloosey/bree_uncouth_milosz/static/media/kyiv_kate_bnw.5f2be781a63e2b417b0f.png",
-    "static/media/yk_fence.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/yk_fence.c60b6419906a17e37be8.jpg",
-    "static/media/jsah.png": "/leftyloosey/bree_uncouth_milosz/static/media/jsah.8465968f4a1e6bd06ee1.png",
-    "static/media/back_porch.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/back_porch.efb41b599753665c52ac.jpg",
-    "static/media/aerial_map.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/aerial_map.08d7e5126a16806f52da.jpg",
-    "static/media/bnw_crane.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/bnw_crane.1a6670477a27bb514f0e.jpg",
-    "static/media/soviet_apart.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/soviet_apart.db2c7826ca1b2e99479d.jpg",
-    "static/media/grand_old.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/grand_old.acb7112ea41b3244839e.jpg",
-    "static/media/new_books.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/new_books.4f883fcd691080191380.jpg",
-    "static/media/green_cover.jpg": "/leftyloosey/bree_uncouth_milosz/static/media/green_cover.c4b8f8a8027b8177866e.jpg",
-    "index.html": "/leftyloosey/bree_uncouth_milosz/index.html",
-    "main.533b0817.css.map": "/leftyloosey/bree_uncouth_milosz/static/css/main.533b0817.css.map",
-    "main.3010d4fa.js.map": "/leftyloosey/bree_uncouth_milosz/static/js/main.3010d4fa.js.map"
+    "main.css": "/bree_uncouth_milosz/static/css/main.9ce36bc9.css",
+    "main.js": "/bree_uncouth_milosz/static/js/main.82643c20.js",
+    "static/media/kyiv_buildings.png": "/bree_uncouth_milosz/static/media/kyiv_buildings.7f45d10aa275525bd199.png",
+    "static/media/insecurity_exhibit.jpg": "/bree_uncouth_milosz/static/media/insecurity_exhibit.b9d91541a8f8b30423a2.jpg",
+    "static/media/mass_housing.png": "/bree_uncouth_milosz/static/media/mass_housing.8ca7c8e14a753d454c50.png",
+    "static/media/kyiv_kate_bnw.png": "/bree_uncouth_milosz/static/media/kyiv_kate_bnw.5f2be781a63e2b417b0f.png",
+    "static/media/yk_fence.jpg": "/bree_uncouth_milosz/static/media/yk_fence.c60b6419906a17e37be8.jpg",
+    "static/media/jsah.png": "/bree_uncouth_milosz/static/media/jsah.8465968f4a1e6bd06ee1.png",
+    "static/media/back_porch.jpg": "/bree_uncouth_milosz/static/media/back_porch.efb41b599753665c52ac.jpg",
+    "static/media/aerial_map.jpg": "/bree_uncouth_milosz/static/media/aerial_map.08d7e5126a16806f52da.jpg",
+    "static/media/bnw_crane.jpg": "/bree_uncouth_milosz/static/media/bnw_crane.1a6670477a27bb514f0e.jpg",
+    "static/media/soviet_apart.jpg": "/bree_uncouth_milosz/static/media/soviet_apart.db2c7826ca1b2e99479d.jpg",
+    "static/media/grand_old.jpg": "/bree_uncouth_milosz/static/media/grand_old.acb7112ea41b3244839e.jpg",
+    "static/media/new_books.jpg": "/bree_uncouth_milosz/static/media/new_books.4f883fcd691080191380.jpg",
+    "static/media/green_cover.jpg": "/bree_uncouth_milosz/static/media/green_cover.c4b8f8a8027b8177866e.jpg",
+    "index.html": "/bree_uncouth_milosz/index.html",
+    "main.9ce36bc9.css.map": "/bree_uncouth_milosz/static/css/main.9ce36bc9.css.map",
+    "main.82643c20.js.map": "/bree_uncouth_milosz/static/js/main.82643c20.js.map"
   },
   "entrypoints": [
-    "static/css/main.533b0817.css",
-    "static/js/main.3010d4fa.js"
+    "static/css/main.9ce36bc9.css",
+    "static/js/main.82643c20.js"
   ]
 }
