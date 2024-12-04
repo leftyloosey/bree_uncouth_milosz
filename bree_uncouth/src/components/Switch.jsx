@@ -13,7 +13,7 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
       <section className='flex flex-row justify-between p-1 pt-2 shadow-md fixed top-0 left-0 right-0 bg-white z-40'>
         <div className='text-4xl font-semibold pt-3 pl-2'>
           <span className='text-nowrap'>
-            <a href='Home' onClick={() => handlePageChange('Home')}>
+            <a href='#Home' onClick={() => handlePageChange('Home')}>
               Kateryna Malaia
             </a>
           </span>
@@ -40,7 +40,7 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
         </div>
         <button
           onClick={handleClick}
-          className='flex flex-col justify-center items-center md:hidden pr-2 mt-4'
+          className='flex flex-col justify-center items-center md:hidden pr-2 mt-3'
         >
           <span
             className={`bg-black block transition-all duration-300 ease-in-out 
