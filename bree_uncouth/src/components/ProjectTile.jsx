@@ -12,7 +12,8 @@ const Project_Tile = ({ project }) => {
         </p>
       </div>
       <a className='' href={link}>
-        <div className='group'>
+        {/* <div className='group'> */}
+        <div className='group shadow-md'>
           <img
             className='w-64 h-64 group-hover:opacity-10'
             src={img}

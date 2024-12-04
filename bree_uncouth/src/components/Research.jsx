@@ -15,7 +15,7 @@ import arcc from '../assets/images/arcc.png'
 import bnw_crane from '../assets/images/bnw_crane.jpg'
 import yk_fence from '../assets/images/yk_fence.jpg'
 
-const Research = () => {
+const Research = ({ menuShut }) => {
   const soviet_union_apart_tile = {
     link: 'https://www.cornellpress.cornell.edu/book/9781501771200/taking-the-soviet-union-apart-room-by-room/#bookTabs=1',
     img: soviet_union_apart,
@@ -66,7 +66,11 @@ const Research = () => {
   }
 
   return (
-    <div className='flex flex-wrap gap-4 mt-4 ml-4 '>
+    <div
+      onClick={menuShut}
+      onLoad={menuShut}
+      className='flex flex-wrap gap-4 mt-4 ml-4 '
+    >
       <ProjectTile project={soviet_union_apart_tile} />
       <ProjectTile project={jsah_tile} />
       <ProjectTile project={mass_housing_tile} />

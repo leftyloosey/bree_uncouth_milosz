@@ -2,9 +2,9 @@ import React from 'react'
 
 import kyiv_kate_bnw from '../assets/images/kyiv_kate_bnw.png'
 
-const CV = () => {
+const CV = ({ menuShut }) => {
   return (
-    <div className='columns-2 mt-4'>
+    <div onLoad={menuShut} onClick={menuShut} className='columns-2 mt-4'>
       <div className='ml-2'>
         <img
           className='object-cover'

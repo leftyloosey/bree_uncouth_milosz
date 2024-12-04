@@ -1,28 +1,105 @@
-const Switch = ({ currentPage, handlePageChange }) => {
+// import React, { useState } from 'react'
+
+const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
+  // const [isOpen, setIsOpen] = useState(false)
+
+  const handleClick = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
-    <section className='flex flex-row justify-between p-1 shadow-md fixed top-0 left-0 right-0 z-100 bg-white'>
-      <div className='text-4xl font-semibold pt-3 pl-2'>Kateryna Malaia</div>
-      <div className='flex flex-row mr-16 text-2xl pt-3'>
-        <div className='group mr-32'>
-          <a href='#Research' onClick={() => handlePageChange('Research')}>
-            Research
-          </a>
-          <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
+    // <div className='flex flex-row justify-around'>
+    <div className=''>
+      <section className='flex flex-row justify-between p-1 pt-2 shadow-md fixed top-0 left-0 right-0 bg-white z-40'>
+        <div className='text-4xl font-semibold pt-3 pl-2'>
+          <span className='text-nowrap'>
+            <a href='Home' onClick={() => handlePageChange('Home')}>
+              Kateryna Malaia
+            </a>
+          </span>
         </div>
-        <div className='group mr-32'>
-          <a href='#Teaching' onClick={() => handlePageChange('Teaching')}>
-            Teaching
-          </a>
-          <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
+        <div className='hidden md:flex md:pl-16 md:pt-5 flex-row md:mr-16 text-2xl pt-5 md:justify-end font-semibold text-slate-600'>
+          <span className='group mr-32 md:mr-16 hover:text-black'>
+            <a href='#Research' onClick={() => handlePageChange('Research')}>
+              Research
+            </a>
+            {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
+          </span>
+          <span className='group mr-32 md:mr-16 hover:text-black'>
+            <a href='#Teaching' onClick={() => handlePageChange('Teaching')}>
+              Teaching
+            </a>
+            {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
+          </span>
+          <span className='group mr-16 hover:text-black'>
+            <a href='#CV' onClick={() => handlePageChange('About')}>
+              About
+            </a>
+            {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
+          </span>
         </div>
-        <div className='group mr-16'>
-          <a href='#CV' onClick={() => handlePageChange('CV')}>
-            CV
-          </a>
-          <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
-        </div>
+        <button
+          onClick={handleClick}
+          className='flex flex-col justify-center items-center md:hidden pr-2 mt-4'
+        >
+          <span
+            className={`bg-black block transition-all duration-300 ease-in-out 
+                    h-0.5 w-8 rounded-sm ${
+                      isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'
+                    }`}
+          ></span>
+
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-0.5 w-8 rounded-sm my-0.5 ${
+                      isOpen ? 'opacity-0' : 'opacity-100'
+                    }`}
+          ></span>
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-0.5 w-8 rounded-sm ${
+                      isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'
+                    }`}
+          ></span>
+        </button>
+      </section>
+      <div>
+        {isOpen ? (
+          <div
+            onMouseLeave={handleClick}
+            className='fixed mt-14 md:hidden z-50 pt-2'
+          >
+            <div className='w-screen h-32 text-4xl font-semibold bg-white'>
+              <div className='flex flex-col pl-3'>
+                <span className='border-t-2 hover:text-black text-slate-600 pt-1'>
+                  <a
+                    href='#Research'
+                    onClick={() => handlePageChange('Research')}
+                  >
+                    Research
+                  </a>
+                </span>
+                <span className='border-t-2 hover:text-black text-slate-600'>
+                  <a
+                    href='#Teaching'
+                    onClick={() => handlePageChange('Teaching')}
+                  >
+                    Teaching
+                  </a>
+                </span>
+                <span className='border-t-2 hover:text-black text-slate-600'>
+                  <a href='#About' onClick={() => handlePageChange('About')}>
+                    About
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
-    </section>
+    </div>
   )
 }
 

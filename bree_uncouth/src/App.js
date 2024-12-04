@@ -12,24 +12,39 @@ function App() {
 
   const renderPage = () => {
     if (currentPage === 'Research') {
-      return <Research />
+      return <Research menuShut={menuShut} />
     }
     if (currentPage === 'Teaching') {
-      return <Teaching />
+      return <Teaching menuShut={menuShut} />
     }
-    if (currentPage === 'CV') {
-      return <CV />
+    if (currentPage === 'About') {
+      return <CV menuShut={menuShut} />
     }
     if (currentPage === 'Home') {
-      return <Home />
+      return <Home menuShut={menuShut} />
     }
   }
 
   const handlePageChange = (page) => setCurrentPage(page)
 
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleClick = () => {
+    setIsOpen(!isOpen)
+  }
+  const menuShut = () => {
+    if (isOpen === true) setIsOpen(false)
+  }
   return (
     <div className='font-grotesk flex flex-col space-y-16'>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav
+        handleClick={handleClick}
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
+      {/* <Nav currentPage={currentPage} handlePageChange={handlePageChange} /> */}
 
       <div className='h-screen'>{renderPage()}</div>
 
