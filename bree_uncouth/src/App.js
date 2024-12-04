@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Research from './components/Research'
 import Teaching from './components/Teaching'
 import Home from './components/Home'
-import CV from './components/CV'
+import About from './components/About'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -18,7 +18,7 @@ function App() {
       return <Teaching menuShut={menuShut} />
     }
     if (currentPage === 'About') {
-      return <CV menuShut={menuShut} />
+      return <About menuShut={menuShut} />
     }
     if (currentPage === 'Home') {
       return <Home menuShut={menuShut} />

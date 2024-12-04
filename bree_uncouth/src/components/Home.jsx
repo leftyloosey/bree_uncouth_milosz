@@ -5,7 +5,7 @@ const Home = ({ menuShut }) => {
       onClick={menuShut}
       className='bg-kyiv_buildings bg-cover h-full'
     >
-      <div className='flex flex-col ml-4 pt-2 opacity-60 italic font-medium text-xl z-10'>
+      <div className='flex flex-col ml-4 pt-2 opacity-60 font-medium text-xl z-10'>
         <span>PhD</span>
         <span> Assistant Professor</span>
         <span>School of Architecture</span>

@@ -4,15 +4,14 @@ const Project_Tile = ({ project }) => {
   const { link, img } = project
   return (
     <div className='group'>
-      <div className='absolute pt-8 pl-2 transition-all opacity-0 transform translate-y-16 group-hover:-translate-y-0 group-hover:opacity-100'>
+      <div className='absolute pt-8 pl-4 transition-all opacity-0 transform translate-y-16 group-hover:-translate-y-0 group-hover:opacity-100'>
         <p className='max-w-60 font-medium'>
           text text text text text text text text text text text text text text
           text text text text text text text text text text text text text text
-          text text
+          text text text text
         </p>
       </div>
       <a className='' href={link}>
-        {/* <div className='group'> */}
         <div className='group shadow-md'>
           <img
             className='w-64 h-64 group-hover:opacity-10'
