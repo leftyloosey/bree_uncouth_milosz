@@ -1,7 +1,6 @@
-import React from 'react'
-
-const Project_Tile = ({ project }) => {
+const Project_Tile = ({ vis, project }) => {
   const { link, img } = project
+
   return (
     <div className='group'>
       <div className='absolute pt-8 pl-4 transition-all opacity-0 transform translate-y-16 group-hover:-translate-y-0 group-hover:opacity-100'>

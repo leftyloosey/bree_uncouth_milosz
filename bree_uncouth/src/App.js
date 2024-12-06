@@ -17,6 +17,7 @@ function App() {
     if (currentPage === 'Teaching') {
       return <Teaching menuShut={menuShut} />
     }
+    // }
     if (currentPage === 'About') {
       return <About menuShut={menuShut} />
     }
@@ -35,6 +36,7 @@ function App() {
   const menuShut = () => {
     if (isOpen === true) setIsOpen(false)
   }
+
   return (
     <div className='font-grotesk flex flex-col space-y-16'>
       <Nav
@@ -44,7 +46,6 @@ function App() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      {/* <Nav currentPage={currentPage} handlePageChange={handlePageChange} /> */}
 
       <div className='h-screen'>{renderPage()}</div>
 
