@@ -71,7 +71,7 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
           >
             <div className='w-screen h-32 text-4xl font-semibold bg-white'>
               <div className='flex flex-col pl-3'>
-                <button className='border-t-2 hover:text-black text-slate-600 pt-1'>
+                <button className='border-t-2 hover:text-black text-slate-600 pt-1 text-left'>
                   <a
                     href='#Research'
                     onClick={() => handlePageChange('Research')}
@@ -79,7 +79,7 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
                     Research
                   </a>
                 </button>
-                <button className='border-t-2 hover:text-black text-slate-600'>
+                <button className='border-t-2 hover:text-black text-slate-600 text-left'>
                   <a
                     href='#Teaching'
                     onClick={() => handlePageChange('Teaching')}
@@ -87,7 +87,7 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
                     Teaching
                   </a>
                 </button>
-                <button className='border-t-2 hover:text-black text-slate-600'>
+                <button className='border-t-2 hover:text-black text-slate-600 text-left'>
                   <a href='#About' onClick={() => handlePageChange('About')}>
                     About
                   </a>
