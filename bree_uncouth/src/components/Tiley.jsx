@@ -14,7 +14,9 @@ const Tiley = ({ vis, project }) => {
         <div
           ref={ref}
           className={`transition delay-600 duration-300 ease-in-out absolute pt-8 pl-4 opacity-0 transform translate-y-16 ${
-            inView ? ' -translate-y-0 opacity-100' : ''
+            inView
+              ? ' -translate-y-0 opacity-100'
+              : '-translate-y-0 opacity-100'
           }`}
         >
           <p
@@ -43,9 +45,9 @@ const Tiley = ({ vis, project }) => {
 
   return (
     <div className=''>
-      <div className='mt-16 md:mt-4'></div>
+      <div className='mt-16 lg:mt-0'></div>
       <LazyAnimat />
-      <div className='mb-16 lg:mb-2'></div>
+      {/* <div classNamesdiv> */}
     </div>
   )
 }

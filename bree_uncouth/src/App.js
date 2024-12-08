@@ -48,7 +48,7 @@ function App() {
       />
 
       <div className='h-screen'>{renderPage()}</div>
-
+      <div className='mt-2'></div>
       <Footer />
     </div>
   )
