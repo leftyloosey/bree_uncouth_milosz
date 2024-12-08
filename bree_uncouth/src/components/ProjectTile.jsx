@@ -13,13 +13,13 @@ const ProjectTile = ({ vis, project }) => {
       <div className='group'>
         <div
           ref={ref}
-          className={`transition delay-600 duration-300 ease-in-out absolute pt-8 pl-4  ${
+          className={`transition delay-75 duration-200  absolute pt-8 pl-4 ${
             inView ? ' -translate-y-0 opacity-100' : ''
           }`}
         >
           <p
             ref={ref}
-            className='transition delay-700 max-w-60 font-medium lg:invisible lg:group-hover:visible'
+            className='transition delay-75 max-w-60 font-medium lg:invisible lg:group-hover:visible'
           >
             text text text text text text text text text text text text text
             text text text text text text text text text text text text text
@@ -29,7 +29,7 @@ const ProjectTile = ({ vis, project }) => {
         <a className='' href={link}>
           <div className='group shadow-md'>
             <img
-              className={`w-64 h-64 transition delay-500 duration-300 ease-in-out lg:group-hover:opacity-10 ${
+              className={`w-64 h-64 transition delay-75 duration-200 ease-in-out lg:group-hover:opacity-10 ${
                 inView ? 'opacity-10 lg:opacity-100' : ''
               }`}
               src={img}
