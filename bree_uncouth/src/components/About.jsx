@@ -14,6 +14,7 @@ const CV = ({ menuShut }) => {
         />
       </div>
       <div className='m-2 break-inside-avoid-column'>
+        {/* <p className='lg:blue2 md:red1'>hello there</p> */}
         <p className='pt-2'>
           I am an architectural historian and Assistant Professor of
           Architecture at the University of Utah. My research investigates the
