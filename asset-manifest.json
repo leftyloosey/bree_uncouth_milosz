@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bree_uncouth_milosz/static/css/main.50c25253.css",
-    "main.js": "/bree_uncouth_milosz/static/js/main.4abaf823.js",
+    "main.css": "/bree_uncouth_milosz/static/css/main.410b9784.css",
+    "main.js": "/bree_uncouth_milosz/static/js/main.75830b1f.js",
     "static/media/kyiv_buildings.png": "/bree_uncouth_milosz/static/media/kyiv_buildings.7f45d10aa275525bd199.png",
     "static/media/insecurity_exhibit.jpg": "/bree_uncouth_milosz/static/media/insecurity_exhibit.b9d91541a8f8b30423a2.jpg",
     "static/media/mass_housing.png": "/bree_uncouth_milosz/static/media/mass_housing.8ca7c8e14a753d454c50.png",
@@ -16,11 +16,11 @@
     "static/media/new_books.jpg": "/bree_uncouth_milosz/static/media/new_books.4f883fcd691080191380.jpg",
     "static/media/green_cover.jpg": "/bree_uncouth_milosz/static/media/green_cover.c4b8f8a8027b8177866e.jpg",
     "index.html": "/bree_uncouth_milosz/index.html",
-    "main.50c25253.css.map": "/bree_uncouth_milosz/static/css/main.50c25253.css.map",
-    "main.4abaf823.js.map": "/bree_uncouth_milosz/static/js/main.4abaf823.js.map"
+    "main.410b9784.css.map": "/bree_uncouth_milosz/static/css/main.410b9784.css.map",
+    "main.75830b1f.js.map": "/bree_uncouth_milosz/static/js/main.75830b1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.50c25253.css",
-    "static/js/main.4abaf823.js"
+    "static/css/main.410b9784.css",
+    "static/js/main.75830b1f.js"
   ]
 }
