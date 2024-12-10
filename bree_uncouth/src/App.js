@@ -3,7 +3,8 @@ import { useState } from 'react'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Research from './components/Research'
-import Teaching from './components/Teaching'
+import Touching from './components/Touching'
+// import Teaching from './components/Teaching'
 import Home from './components/Home'
 import About from './components/About'
 
@@ -15,7 +16,7 @@ function App() {
       return <Research menuShut={menuShut} />
     }
     if (currentPage === 'Teaching') {
-      return <Teaching menuShut={menuShut} />
+      return <Touching menuShut={menuShut} />
     }
     // }
     if (currentPage === 'About') {
@@ -48,8 +49,8 @@ function App() {
       />
 
       <div className='h-screen'>{renderPage()}</div>
-      <div className='mt-2'></div>
-      <Footer />
+      <div className=''>.</div>
+      <Footer className='' />
     </div>
   )
 }

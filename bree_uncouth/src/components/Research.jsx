@@ -74,7 +74,7 @@ const Research = ({ menuShut }) => {
   TimerEffect()
 
   return (
-    <div className='flex flex-wrap gap-4 mt-4 ml-4 justify-center md:flex-row lg:justify-normal'>
+    <div className='flex flex-wrap gap-4 mt-0 ml-4 justify-center md:flex-row lg:justify-normal'>
       <Tiley project={soviet_union_apart_tile} />
 
       <Tiley project={jsah_tile} />
@@ -98,6 +98,8 @@ const Research = ({ menuShut }) => {
       <Tiley project={back_porch_tile} />
 
       <Tiley project={grand_old_tile} />
+
+      <div className='w-64 h-64'></div>
     </div>
   )
 }

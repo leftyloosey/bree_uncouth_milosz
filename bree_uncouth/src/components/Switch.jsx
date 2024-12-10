@@ -18,7 +18,7 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
             </a>
           </span>
         </div>
-        <div className='hidden md:flex md:pl-16 md:pt-5 flex-row md:mr-16 text-2xl pt-5 md:justify-end font-semibold text-slate-600'>
+        <div className='hidden md:flex md:pl-16 md:pt-5 flex-row md:mr-3 text-2xl pt-5 md:justify-end font-semibold text-slate-600'>
           <span className='group mr-32 md:mr-16 hover:text-black'>
             <a href='#Research' onClick={() => handlePageChange('Research')}>
               Research
