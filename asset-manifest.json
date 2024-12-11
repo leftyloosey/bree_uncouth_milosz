@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/bree_uncouth_milosz/static/css/main.c6321622.css",
-    "main.js": "/bree_uncouth_milosz/static/js/main.33f24632.js",
+    "main.css": "/bree_uncouth_milosz/static/css/main.1a403e71.css",
+    "main.js": "/bree_uncouth_milosz/static/js/main.d3b0efa5.js",
     "static/media/kyiv_buildings.png": "/bree_uncouth_milosz/static/media/kyiv_buildings.7f45d10aa275525bd199.png",
+    "static/media/clipboard_masks.JPG": "/bree_uncouth_milosz/static/media/clipboard_masks.8b4e2286ff527aae590c.JPG",
+    "static/media/in_a_square.jpg": "/bree_uncouth_milosz/static/media/in_a_square.981353854b2d21437f05.jpg",
     "static/media/insecurity_exhibit.jpg": "/bree_uncouth_milosz/static/media/insecurity_exhibit.b9d91541a8f8b30423a2.jpg",
+    "static/media/in_a_square_zoom.jpg": "/bree_uncouth_milosz/static/media/in_a_square_zoom.b3d10f2d62272de85406.jpg",
+    "static/media/construction_twilight.jpg": "/bree_uncouth_milosz/static/media/construction_twilight.0765f2c44cf4bf2df99b.jpg",
     "static/media/mass_housing.png": "/bree_uncouth_milosz/static/media/mass_housing.8ca7c8e14a753d454c50.png",
     "static/media/kyiv_kate_bnw.png": "/bree_uncouth_milosz/static/media/kyiv_kate_bnw.5f2be781a63e2b417b0f.png",
     "static/media/yk_fence.jpg": "/bree_uncouth_milosz/static/media/yk_fence.c60b6419906a17e37be8.jpg",
@@ -16,11 +20,11 @@
     "static/media/new_books.jpg": "/bree_uncouth_milosz/static/media/new_books.4f883fcd691080191380.jpg",
     "static/media/green_cover.jpg": "/bree_uncouth_milosz/static/media/green_cover.c4b8f8a8027b8177866e.jpg",
     "index.html": "/bree_uncouth_milosz/index.html",
-    "main.c6321622.css.map": "/bree_uncouth_milosz/static/css/main.c6321622.css.map",
-    "main.33f24632.js.map": "/bree_uncouth_milosz/static/js/main.33f24632.js.map"
+    "main.1a403e71.css.map": "/bree_uncouth_milosz/static/css/main.1a403e71.css.map",
+    "main.d3b0efa5.js.map": "/bree_uncouth_milosz/static/js/main.d3b0efa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6321622.css",
-    "static/js/main.33f24632.js"
+    "static/css/main.1a403e71.css",
+    "static/js/main.d3b0efa5.js"
   ]
 }
