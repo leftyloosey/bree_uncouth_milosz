@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
@@ -16,7 +17,7 @@ function App() {
       return <Research menuShut={menuShut} />
     }
     if (currentPage === 'Teaching') {
-      return <Touching menuShut={menuShut} />
+      return <Touching isOpen={isOpen} menuShut={menuShut} />
     }
     // }
     if (currentPage === 'About') {
@@ -39,19 +40,21 @@ function App() {
   }
 
   return (
-    <div className='font-grotesk flex flex-col space-y-16'>
-      <Nav
-        handleClick={handleClick}
-        isOpen={isOpen}
-        setIsOpen={setIsOpen}
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
+    <ParallaxProvider>
+      <div className='font-grotesk flex flex-col space-y-16'>
+        <Nav
+          handleClick={handleClick}
+          isOpen={isOpen}
+          setIsOpen={setIsOpen}
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
 
-      <div className='h-screen'>{renderPage()}</div>
-      <div className=''>.</div>
-      <Footer className='' />
-    </div>
+        <div className='h-screen'>{renderPage()}</div>
+        <div className=''>.</div>
+        <Footer className='' />
+      </div>
+    </ParallaxProvider>
   )
 }
 

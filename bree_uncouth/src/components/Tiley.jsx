@@ -5,7 +5,7 @@ const Tiley = ({ vis, project }) => {
 
   const LazyAnimat = () => {
     const { ref, inView } = useInView({
-      rootMargin: '90px 0px -105px 0px',
+      rootMargin: '90px 0px -180px 0px',
       threshold: 1,
       initialInView: true,
     })

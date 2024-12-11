@@ -68,13 +68,16 @@ const Research = ({ menuShut }) => {
     useEffect(() => {
       setTimeout(() => {
         menuShut()
-      }, 2000)
+      }, 100)
     }, [])
   }
   TimerEffect()
 
   return (
-    <div className='flex flex-wrap gap-4 mt-0 ml-4 justify-center md:flex-row lg:justify-normal'>
+    <div
+      onClick={menuShut}
+      className='flex flex-wrap gap-4 mt-0 ml-4 justify-center md:flex-row lg:justify-normal'
+    >
       <Tiley project={soviet_union_apart_tile} />
 
       <Tiley project={jsah_tile} />
