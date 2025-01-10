@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/bree_uncouth_milosz/static/css/main.443077c5.css",
-    "main.js": "/bree_uncouth_milosz/static/js/main.8e91d3d0.js",
+    "main.css": "/bree_uncouth_milosz/static/css/main.1e434e6d.css",
+    "main.js": "/bree_uncouth_milosz/static/js/main.bb760160.js",
     "static/media/kyiv_buildings.png": "/bree_uncouth_milosz/static/media/kyiv_buildings.7f45d10aa275525bd199.png",
     "static/media/carl_sagan1.jpg": "/bree_uncouth_milosz/static/media/carl_sagan1.9efd5067d5bb56073b78.jpg",
     "static/media/carl_sagan2.jpg": "/bree_uncouth_milosz/static/media/carl_sagan2.abf9090650250d03e490.jpg",
     "static/media/in_a_square.jpg": "/bree_uncouth_milosz/static/media/in_a_square.981353854b2d21437f05.jpg",
     "static/media/insecurity_exhibit.jpg": "/bree_uncouth_milosz/static/media/insecurity_exhibit.b9d91541a8f8b30423a2.jpg",
-    "static/media/in_a_square_zoom.jpg": "/bree_uncouth_milosz/static/media/in_a_square_zoom.b3d10f2d62272de85406.jpg",
     "static/media/construction_twilight.jpg": "/bree_uncouth_milosz/static/media/construction_twilight.0765f2c44cf4bf2df99b.jpg",
-    "static/media/construction_crane.jpg": "/bree_uncouth_milosz/static/media/construction_crane.571968800db8c3a65abe.jpg",
     "static/media/mass_housing.png": "/bree_uncouth_milosz/static/media/mass_housing.8ca7c8e14a753d454c50.png",
     "static/media/yk_fence.jpg": "/bree_uncouth_milosz/static/media/yk_fence.c60b6419906a17e37be8.jpg",
     "static/media/jsah.png": "/bree_uncouth_milosz/static/media/jsah.8465968f4a1e6bd06ee1.png",
@@ -23,11 +21,11 @@
     "static/media/italians.jpg": "/bree_uncouth_milosz/static/media/italians.e3c133660687f05affa4.jpg",
     "static/media/green_cover.jpg": "/bree_uncouth_milosz/static/media/green_cover.c4b8f8a8027b8177866e.jpg",
     "index.html": "/bree_uncouth_milosz/index.html",
-    "main.443077c5.css.map": "/bree_uncouth_milosz/static/css/main.443077c5.css.map",
-    "main.8e91d3d0.js.map": "/bree_uncouth_milosz/static/js/main.8e91d3d0.js.map"
+    "main.1e434e6d.css.map": "/bree_uncouth_milosz/static/css/main.1e434e6d.css.map",
+    "main.bb760160.js.map": "/bree_uncouth_milosz/static/js/main.bb760160.js.map"
   },
   "entrypoints": [
-    "static/css/main.443077c5.css",
-    "static/js/main.8e91d3d0.js"
+    "static/css/main.1e434e6d.css",
+    "static/js/main.bb760160.js"
   ]
 }
