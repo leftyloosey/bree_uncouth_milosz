@@ -6,7 +6,7 @@ import kyiv_kate_color from '../assets/images/kyiv_kate_color.jpg'
 const CV = ({ menuShut }) => {
   return (
     <div onLoad={menuShut} onClick={menuShut} className='md:columns-2'>
-      <div className='m-1 mt-1'>
+      <div className='md:ml-4 m-2 md:mt-4 mt-4'>
         <img
           className='object-cover rounded-sm'
           src={kyiv_kate_color}
@@ -16,16 +16,17 @@ const CV = ({ menuShut }) => {
       </div>
       <div className='m-2 break-inside-avoid-column'>
         {/* <p className='lg:blue2 md:red1'>hello there</p> */}
-        <p className='pt-16 '>
-          I am an architectural historian and Assistant Professor of
-          Architecture at the University of Utah. My research investigates the
-          evolution of residential architecture in times of socio-political
-          change in relation to the collapse of the USSR, and to the rising
-          housing insecurity in North American cities. I studied architecture at
-          the National Academy of Fine Arts and Architecture, Kyiv, Ukraine. I
-          continued my studies at the School of Architecture and Urban Planning,
-          University of Wisconsin-Milwaukee, where I received my PhD in the
-          Buildings-Landscapes-Cultures Program in 2019.
+        <p className='md:pt-4'>
+          {/* <p className='mt-4 md:pt-16 '> */}I am an architectural historian
+          and Assistant Professor of Architecture at the University of Utah. My
+          research investigates the evolution of residential architecture in
+          times of socio-political change in relation to the collapse of the
+          USSR, and to the rising housing insecurity in North American cities. I
+          studied architecture at the National Academy of Fine Arts and
+          Architecture, Kyiv, Ukraine. I continued my studies at the School of
+          Architecture and Urban Planning, University of Wisconsin-Milwaukee,
+          where I received my PhD in the Buildings-Landscapes-Cultures Program
+          in 2019.
         </p>
         <p className='mt-2'>
           I am an author of two books: Taking the Soviet Union Apart Room by
@@ -42,7 +43,7 @@ const CV = ({ menuShut }) => {
         </p>
         <p className='mt-2'>
           At the University of Utah, I teach graduate and undergraduate design
-          studios, research methods, and architectural theory courses.{' '}
+          studios, research methods, and architectural theory courses.
           <p
             className='pt-4 font-semibold
            text-2xl hover:text-green-900'
@@ -51,6 +52,7 @@ const CV = ({ menuShut }) => {
           </p>
         </p>
       </div>
+      <div className='text-white mt-16'>.</div>
     </div>
   )
 }

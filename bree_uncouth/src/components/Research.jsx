@@ -69,6 +69,18 @@ const italians_tile = {
 }
 
 const Research = ({ menuShut }) => {
+  // function TimerEffect() {
+  //   setTimeout(() => {
+  //     menuShut()
+  //   }, 100)
+  // }
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     menuShut()
+  //   }, 100)
+  // })
+
   function TimerEffect() {
     useEffect(() => {
       setTimeout(() => {

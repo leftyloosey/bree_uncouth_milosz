@@ -1,14 +1,23 @@
+import { useEffect } from 'react'
 import { Parallax } from 'react-scroll-parallax'
-import construction_crane from '../assets/images/construction_crane.jpg'
+// import construction_crane from '../assets/images/construction_crane.jpg'
 import carl_sagan1 from '../assets/images/carl_sagan1.jpg'
 import carl_sagan2 from '../assets/images/carl_sagan2.jpg'
 
 // import construction_indoors from '../assets/images/construction_indoors.jpg'
 import construction_twilight from '../assets/images/construction_twilight.jpg'
 import in_a_square from '../assets/images/in_a_square.jpg'
-import in_a_square_zoom from '../assets/images/in_a_square_zoom.jpg'
+// import in_a_square_zoom from '../assets/images/in_a_square_zoom.jpg'
 
-const Teaching = () => {
+const Teaching = ({ menuShut }) => {
+  function TimerEffect() {
+    useEffect(() => {
+      setTimeout(() => {
+        menuShut()
+      }, 100)
+    }, [])
+  }
+  TimerEffect()
   const Picture = ({ pic }) => {
     return <img alt='' src={pic} className='shadow-2xl' />
   }
@@ -156,7 +165,7 @@ const Teaching = () => {
   //   </div>
   // )
   return (
-    <div className='mt-12 md:mt-8'>
+    <div onClick={menuShut} className='mt-12 md:mt-8'>
       <div className='flex flex-col md:flex-row md:justify-between md:gap-x-4'>
         <Parallax speed={10} className='px-1 md:pl-4 basis-1/2'>
           <Picture pic={in_a_square} />
