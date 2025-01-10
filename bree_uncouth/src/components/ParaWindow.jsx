@@ -3,6 +3,7 @@ const Picture = ({ pic }) => {
   return <img alt='' src={pic} className='shadow-2xl' />
 }
 const ParaWindow = ({ picture, text }) => {
+  console.log('rerender?')
   return (
     <>
       <div className='flex flex-col md:flex-row md:justify-between md:gap-x-4'>

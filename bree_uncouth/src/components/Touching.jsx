@@ -29,12 +29,14 @@ const Touching = ({ isOpen, menuShut }) => {
   }
   TimerEffect()
   return (
-    <div className='mt-10 md:mt-8'>
-      <ParaWindow picture={in_a_square} text={p1} />
-      <ParaWindow picture={construction_twilight} text={p2} />
-      <ParaWindow picture={carl_sagan1} text={p3} />
-      <ParaWindow picture={carl_sagan2} text={p4} />
-      <div className='text-white mt-8'>.</div>
+    <div className='w-3/4'>
+      <div className='mt-10 md:mt-10'>
+        <ParaWindow picture={in_a_square} text={p1} />
+        <ParaWindow picture={construction_twilight} text={p2} />
+        <ParaWindow picture={carl_sagan1} text={p3} />
+        <ParaWindow picture={carl_sagan2} text={p4} />
+        <div className='text-white mt-8'>.</div>
+      </div>
     </div>
   )
 }
