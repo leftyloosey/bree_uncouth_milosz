@@ -1,21 +1,22 @@
 import React from 'react'
 
-import kyiv_kate_bnw from '../assets/images/kyiv_kate_bnw.png'
+import kyiv_kate_color from '../assets/images/kyiv_kate_color.jpg'
+// import kyiv_kate_bnw from '../assets/images/kyiv_kate_bnw.png'
 
 const CV = ({ menuShut }) => {
   return (
     <div onLoad={menuShut} onClick={menuShut} className='md:columns-2'>
       <div className='m-1 mt-1'>
         <img
-          className='object-cover'
-          src={kyiv_kate_bnw}
+          className='object-cover rounded-sm'
+          src={kyiv_kate_color}
           alt=''
           //   className='shadow-md mx-auto duration-200 w-60 hover:scale-105'
         />
       </div>
       <div className='m-2 break-inside-avoid-column'>
         {/* <p className='lg:blue2 md:red1'>hello there</p> */}
-        <p className='pt-2'>
+        <p className='pt-16 '>
           I am an architectural historian and Assistant Professor of
           Architecture at the University of Utah. My research investigates the
           evolution of residential architecture in times of socio-political
@@ -39,9 +40,15 @@ const CV = ({ menuShut }) => {
           intentionally destroyed by the Russian army during the full-scale
           invasion.
         </p>
-        <p className='mt-2 pb-8'>
+        <p className='mt-2'>
           At the University of Utah, I teach graduate and undergraduate design
-          studios, research methods, and architectural theory courses.
+          studios, research methods, and architectural theory courses.{' '}
+          <p
+            className='pt-4 font-semibold
+           text-2xl hover:text-green-900'
+          >
+            CV
+          </p>
         </p>
       </div>
     </div>

@@ -13,6 +13,7 @@ import aerial_map from '../assets/images/aerial_map.jpg'
 import arcc from '../assets/images/arcc.png'
 import bnw_crane from '../assets/images/bnw_crane.jpg'
 import yk_fence from '../assets/images/yk_fence.jpg'
+import italians from '../assets/images/italians.jpg'
 
 const soviet_union_apart_tile = {
   link: 'https://www.cornellpress.cornell.edu/book/9781501771200/taking-the-soviet-union-apart-room-by-room/#bookTabs=1',
@@ -62,6 +63,10 @@ const yk_fence_tile = {
   link: '',
   img: yk_fence,
 }
+const italians_tile = {
+  link: '',
+  img: italians,
+}
 
 const Research = ({ menuShut }) => {
   function TimerEffect() {
@@ -76,7 +81,7 @@ const Research = ({ menuShut }) => {
   return (
     <div
       onClick={menuShut}
-      className='flex flex-wrap gap-4 mt-0 ml-4 justify-center md:flex-row lg:justify-normal'
+      className='flex flex-wrap gap-4 mt-4 ml-4 justify-center md:flex-row lg:justify-normal'
     >
       <Tiley project={soviet_union_apart_tile} />
 
@@ -101,6 +106,8 @@ const Research = ({ menuShut }) => {
       <Tiley project={back_porch_tile} />
 
       <Tiley project={grand_old_tile} />
+
+      <Tiley project={italians_tile} />
 
       <div className='w-64 h-64'></div>
     </div>

@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer'
 const Tiley = ({ vis, project }) => {
   const { link, img } = project
 
-  const LazyAnimat = () => {
+  const InView = () => {
     const { ref, inView } = useInView({
       rootMargin: '90px 0px -180px 0px',
       threshold: 1,
@@ -45,7 +45,7 @@ const Tiley = ({ vis, project }) => {
   return (
     <div className=''>
       <div className='mt-16 lg:mt-0'></div>
-      <LazyAnimat />
+      <InView />
       {/* <div classNamesdiv> */}
     </div>
   )

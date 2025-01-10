@@ -4,8 +4,8 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Research from './components/Research'
-import Touching from './components/Touching'
-// import Teaching from './components/Teaching'
+// import Touching from './components/Touching'
+import Teaching from './components/Teaching'
 import Home from './components/Home'
 import About from './components/About'
 
@@ -17,7 +17,7 @@ function App() {
       return <Research menuShut={menuShut} />
     }
     if (currentPage === 'Teaching') {
-      return <Touching isOpen={isOpen} menuShut={menuShut} />
+      return <Teaching isOpen={isOpen} menuShut={menuShut} />
     }
     // }
     if (currentPage === 'About') {
@@ -49,7 +49,6 @@ function App() {
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
-
         <div className='h-screen'>{renderPage()}</div>
         <div className=''>.</div>
         <Footer className='' />

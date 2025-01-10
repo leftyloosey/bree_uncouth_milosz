@@ -4,6 +4,7 @@ import clipboard_masks from '../assets/images/clipboard_masks.JPG'
 import construction_twilight from '../assets/images/construction_twilight.jpg'
 import in_a_square from '../assets/images/in_a_square.jpg'
 import in_a_square_zoom from '../assets/images/in_a_square_zoom.jpg'
+import { useInView } from 'react-intersection-observer'
 
 import { useParallax } from 'react-scroll-parallax'
 
@@ -23,25 +24,31 @@ const Touching = ({ isOpen, menuShut }) => {
     // const parallax = useParallax({
     //   speed: -20,
     // })
-    const parallax2 = useParallax({
-      speed: -20,
-    })
+    // const parallax2 = useParallax({
+    //   speed: -20,
+    // })
+    // const { ref, inView } = useInView({
+    //   rootMargin: '90px 0px -180px 0px',
+    //   threshold: 1,
+    //   initialInView: true,
+    // })
     return (
-      <div
-        onClick={menuShut}
-        className={`transition delay-600 duration-300 ease-in-out  gap-2 ${
-          isOpen ? 'invisible' : ''
-        }`}
-      >
+      <div onClick={menuShut} className={`gap-2 ${isOpen ? 'invisible' : ''}`}>
         <img
           alt=''
+          // ref={ref}
           src={pic}
-          className='w-screen md:w-1/2 h-auto shadow-lg rounded-md object-cover'
+          // className={`transition delay-600 duration-300 ease-in-out absolute pt-8 pl-4 opacity-0 transform  ${
+          // inView ? 'opacity-100' : 'lg:group-hover:opacity-100'
+          className='w-1/2 shadow-md rounded-sm mt-4 pl-4'
+          // }`}
+          // className='w-screen md:w-1/2 h-auto shadow-lg rounded-md object-cover transition-opacity ease-in-out duration-1000 animate-pulse'
         />
-        <div className='flex flex-row'>
-          <p className='m-2 pl-4 w-3/4'>{text}</p>
-          <div ref={parallax2.ref} className='flex flex-col'>
-            <p> </p>
+        <div className='flex flex-row bg-gradient-to-r from-white from-2%'>
+          <p className='m-2 pl-2 w-3/4'>{text}</p>
+          {/* <div className='flex flex-col'> */}
+          {/* <div ref={parallax2.ref} className='flex flex-col'> */}
+          {/* <p> </p>
             <p> </p>
             <p> </p>
             <p> </p>
@@ -52,8 +59,8 @@ const Touching = ({ isOpen, menuShut }) => {
             <p>-</p>
             <p>-</p>
             <p>-</p>
-            <p>-</p>
-          </div>
+            <p>-</p> */}
+          {/* </div> */}
         </div>
       </div>
     )

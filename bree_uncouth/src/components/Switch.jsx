@@ -13,7 +13,11 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
       <section className='flex flex-row justify-between p-1 pt-2 shadow-md fixed top-0 left-0 right-0 bg-white z-40'>
         <div className='text-4xl font-semibold pt-3 pl-3'>
           <span className='text-nowrap'>
-            <a href='#Home' onClick={() => handlePageChange('Home')}>
+            <a
+              href='#Home'
+              onClick={() => handlePageChange('Home')}
+              // className='crt'
+            >
               Kateryna Malaia
             </a>
           </span>
