@@ -23,19 +23,19 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
           </span>
         </div>
         <div className='hidden md:flex md:pl-16 md:pt-5 flex-row md:mr-3 text-2xl pt-5 md:justify-end font-semibold text-slate-600'>
-          <span className='group mr-32 md:mr-16 hover:text-black'>
+          <span className='group mr-32 md:mr-16 hover:text-black translate-y-1'>
             <a href='#Research' onClick={() => handlePageChange('Research')}>
               Research
             </a>
             {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
           </span>
-          <span className='group mr-32 md:mr-16 hover:text-black'>
+          <span className='group mr-32 md:mr-16 hover:text-black translate-y-1'>
             <a href='#Teaching' onClick={() => handlePageChange('Teaching')}>
               Teaching
             </a>
             {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
           </span>
-          <span className='group mr-16 hover:text-black'>
+          <span className='group mr-16 hover:text-black translate-y-1'>
             <a href='#CV' onClick={() => handlePageChange('About')}>
               About
             </a>
