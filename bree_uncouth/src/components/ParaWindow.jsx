@@ -10,7 +10,7 @@ const ParaWindow = ({ picture, text }) => {
         <Parallax speed={10} className='px-1 md:pl-4 basis-1/2'>
           <Picture pic={picture} />
         </Parallax>
-        <p className='p-2 md:pl-0 basis-1/2 '>{text}</p>
+        <p className='p-2 ml-4 md:pl-0 basis-1/2 '>{text}</p>
       </div>
     </>
   )

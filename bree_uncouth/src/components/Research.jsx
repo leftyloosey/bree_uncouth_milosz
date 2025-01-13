@@ -28,19 +28,19 @@ const mass_housing_tile = {
   img: mass_housing,
 }
 const grand_old_tile = {
-  link: '',
+  link: 'https://www.bauwelt.de/rubriken/betrifft/Odesa-Wohnungsbau-an-vorderster-Front-3863259.html',
   img: grand_old,
 }
 const new_books_tile = {
-  link: '',
+  link: 'https://newbooksnetwork.com/taking-the-soviet-union-apart-room-by-room',
   img: new_books,
 }
 const exhibit_poster_tile = {
-  link: '',
+  link: 'https://mississippihousing.wixsite.com/mshousingproject/',
   img: exhibit_poster,
 }
 const back_porch_tile = {
-  link: '',
+  link: 'https://www.platformspace.net/home/individually-generated-building-modifications-in-response-to-housing-precarity',
   img: back_porch,
 }
 const cover_issue_tile = {
@@ -48,23 +48,23 @@ const cover_issue_tile = {
   img: cover_issue,
 }
 const aerial_map_tile = {
-  link: '',
+  link: 'https://www.platformspace.net/home/finding-shelter-from-russia-a-city-guide',
   img: aerial_map,
 }
 const arcc_tile = {
-  link: '',
+  link: 'https://www.arcc-arch.org/meet-the-arcc-2024-awards-recipeints/',
   img: arcc,
 }
 const bnw_crane_tile = {
-  link: '',
+  link: 'https://journal.eahn.org/article/id/7603/',
   img: bnw_crane,
 }
 const yk_fence_tile = {
-  link: '',
+  link: 'https://www.cca.qc.ca/en/events/95620/research-fellow-seminar-rural-mass-housing-in-ukraine',
   img: yk_fence,
 }
 const italians_tile = {
-  link: '',
+  link: 'https://re.public.polimi.it/handle/11311/1277205?mode=complete',
   img: italians,
 }
 
